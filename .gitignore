@@ -1,0 +1,6 @@
+.idea
+*.exe
+*.dll
+*.pak
+*.dat
+app/node_modules

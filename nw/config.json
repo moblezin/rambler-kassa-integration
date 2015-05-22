@@ -1,0 +1,14 @@
+{
+  "outputCSVPath": "C:/Projects/mv/scripts/rambler-interation/nw/timetable_past.csv",
+  "outputFilmcountPath": "C:/Projects/mv/scripts/rambler-interation/nw/filmcount.txt",
+  "key": "0f25efcc-f79c-4937-bba5-b82aef856770",
+  "objectId": 17561,
+  "datefrom": "",
+  "dateto": "",
+  "cityid": 4,
+  "salesupportedonly": "false",
+  "linkSchedule": "http://api.kassa.rambler.ru/v2/{{key}}/json/Place/schedule/?objectid={{objectId}}&datefrom={{dateFrom}}&dateto={{dateTo}}&cityid={{cityId}}&salesupportedonly={{salesupportedonly}}",
+  "linkMovies": "http://api.kassa.rambler.ru/v2/{{key}}/xml/movie/export/sale/salemovie-creations{{num}}.xml",
+  "hall_rm": "«‡Î ",
+  "csv": "{{num}};{{name}};;;;;;;;;{{format}};{{ageRestriction}}\r\n;—≈¿Õ—;{{sessions}}\r\n;÷≈Õ¿;{{prices}}\r\n;«¿À;{{halls}}\r\n;;;;;;;;;;;\r\n"
+}
